@@ -9,4 +9,4 @@
 2. Create a folder, and insert the IcecastMetaRipper.bat file.
 3. Insert jq-win64.exe in the same folder.
 4. Change ```<ICECAST-STREAM-URL>``` to your Icecast server IP/URL.
-5. Open IcecastMetaRipper.bat file, and the Icecast songtitle will be writed into ```icecast_meta_title.txt```.
+5. Open IcecastMetaRipper.bat file, and the Icecast songtitle will be writed into ```icecast_meta_title.txt```. The script will loop every 20 seconds, and then updates the song title.
